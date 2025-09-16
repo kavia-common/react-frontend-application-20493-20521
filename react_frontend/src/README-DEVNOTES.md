@@ -1,0 +1,12 @@
+Development notes:
+- The app integrates with the backend via REST endpoints defined in src/api/client.js.
+- JWT token and user are persisted as localStorage keys:
+  - animaltrackr_jwt
+  - animaltrackr_user
+- ProtectedRoute in App.js restricts access to authenticated users, and optional roles.
+- Map uses Leaflet with OSM. To use Mapbox, add Mapbox map container and set REACT_APP_MAPBOX_ACCESS_TOKEN.
+- Offline:
+  - sw.js caches static and GET responses and background-syncs POST /telemetry and /camera-trap/upload.
+  - OfflineSyncIndicator surfaces connectivity and sync hints.
+- WebSocket:
+  - REACT_APP_SOCKET_URL is used by useRealtime hook for live telemetry/alerts.

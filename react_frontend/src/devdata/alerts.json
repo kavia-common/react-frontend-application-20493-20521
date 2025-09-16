@@ -1,0 +1,4 @@
+[
+  { "title": "Fence breach", "message": "Kibo crossed geofence north boundary." },
+  { "title": "Low battery", "message": "Collar 1002 battery below 20%." }
+]

@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Kibo", "species": "Elephant", "device_id": "D-1001", "online": true, "lat": -1.2921, "lng": 36.8219, "photo": "" },
+  { "id": 2, "name": "Zara", "species": "Zebra", "device_id": "D-1002", "online": false, "lat": -2.1521, "lng": 34.8219, "photo": "" }
+]
